@@ -1,0 +1,499 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
+/* reset start */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset end */
+
+.wrap{
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* social-nav start */
+.social-nav{
+    background-color: #f6f6f6;
+    padding: 6px 14px 6px 14px;
+}
+
+.social-nav ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+}
+
+.social-nav ul li a , .social-nav ul li{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.social-nav ul li img{
+    width: 16px;
+    height: 16px;
+    margin-right: 3px;
+}
+
+.social-nav ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family:'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+}
+
+.facebook-a{
+    color: #4460a0;
+}
+
+.vertical-bar{
+    color: #cccccc;
+    font-size: 12px;
+}
+
+.twitter-a{
+    color: #00aaec;
+}
+
+.facebook-a:hover , .twitter-a:hover{
+    text-decoration: underline;
+}
+/* scocial-nav end */
+
+/* menu-nav start */
+.menu-nav{
+    background-color: #ffffff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 14px 0 14px;
+}
+
+.menu-nav h1 a img{
+    width: 170px;
+    height: 36px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    position: relative;
+    left: -12px;
+}
+
+.menu-nav > ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.menu-nav .menu-outer-ul li{
+    position: relative;
+}
+
+.menu-nav .menu-outer-ul li a{
+    text-decoration: none;
+    color: #00cc99;
+    font-size: 15px;
+    font-family:'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+    display: block;
+    padding: 17.5px ;
+    border-bottom: 3px solid transparent;
+}
+
+.menu-inner-ul{
+    width: 95px;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 53px;
+    display: none;
+    z-index: 2;
+}
+
+.menu-inner-ul li a:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
+/* menu-nav end */
+
+/* swiper start */
+.main-main .banner{
+    height: 350px;
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.swiper-container {
+    height: 350px;
+    margin-bottom: 60px;
+}
+
+.main-main .banner .inner-banner{
+    width: 100%;
+    padding: 44px 0 44px 21px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.main-main .banner .inner-banner h2{
+    font-size: 36px;
+    color: white;
+    font-family:'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+    line-height: 1.5;
+    font-weight: 500;
+}   
+/* swiper end */
+
+/* course-intro start */
+.main-main .course-intro{
+    padding: 0 21px 0 21px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+.main-main .course-intro > div{
+    width: 30%;
+    padding: 20px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: 3px 3px 3px lightgray;
+            box-shadow: 3px 3px 3px lightgray;
+    border-radius: 3px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.main-main .course-intro > div:hover{
+    -webkit-box-shadow: 5px 5px 5px lightgray;
+            box-shadow: 5px 5px 5px lightgray;
+    -webkit-transform: translate(3px , 3px);
+        -ms-transform: translate(3px , 3px);
+            transform: translate(3px , 3px);
+}
+
+.main-main .course-intro > div img{
+    height: 150px;
+    -o-object-fit: contain;
+       object-fit: contain;
+    -o-object-position: center;
+       object-position: center;
+    margin-bottom: 20px;
+}
+
+.main-main .course-intro > div h3{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 10px;
+    font-family:'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+}
+
+.main-main .course-intro > div p{
+    font-size: 15px;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    font-family:'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+}
+
+.main-main .course-intro > div ul{
+    list-style-type: disc;
+    letter-spacing: 1.5px;
+    line-height: 1.5;
+    font-family:'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+}
+/* course-intro end */
+
+/* compare-table start */
+.compare-table{
+    padding: 0 82px 0 82px;
+    margin-bottom: 60px;
+}
+
+.main-main .compare-table h3{
+    text-align: center;
+    font-size: 24px;
+    font-family:'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.main-main .compare-table table{
+    width: 100%;
+  
+}
+
+.compare-table table tr{
+    border-bottom: 1px solid #dddddd;
+}
+
+.compare-table table tr:hover{
+    background-color: #f7f7f7;
+}
+
+.compare-table table th{
+    font-weight: 500;
+}
+
+.compare-table table th , .compare-table table td{
+    text-align: left;
+    font-size: 15px;
+    padding: 10.5px 24px 10.5px 24px;
+    font-family:'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+}
+
+.green-word{
+    color: #00cc99;
+}
+/* compare-table end */
+
+/* contact-form start */
+.main-main .contact-form{
+    padding: 30px 21px;
+    background: -webkit-gradient(linear,left top, left bottom,from(#00644b),to(#009872)) ;
+    background: -o-linear-gradient(#00644b,#009872) ;
+    background: linear-gradient(#00644b,#009872) ;
+}
+
+.main-main .contact-form h3{
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: 500;
+    font-family:'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+}
+
+.main-main .contact-form form{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.main-main .contact-form form>div{
+    width: 45%;
+}
+
+.main-main .contact-form form textarea{
+    width: 100%;
+    height: 100%;
+    resize: none;
+    border-radius: 3px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family:'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.main-main .contact-form form label{
+    display: block;
+    color: white;
+    margin-bottom: 5px;
+    font-size: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-family:'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+}
+
+.main-main .contact-form form input{
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));;
+    cursor: pointer;
+    font-family:'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.main-main .contact-form form input:focus , .main-main .contact-form form textarea:focus{
+    -webkit-box-shadow: 3px 3px 8px #00644b;
+            box-shadow: 3px 3px 8px #00644b;
+}
+
+.main-main .contact-form form input:hover , .main-main .contact-form form textarea:hover{
+    -webkit-box-shadow: 3px 3px 8px #00644b;
+            box-shadow: 3px 3px 8px #00644b;
+}
+
+.main-main .contact-form form .submit-input{
+    border: none;
+    width: 70px;
+    height: 32px;
+    color: white;
+    background-color: #00cc99;
+    margin: 0;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+
+.main-main .contact-form form .submit-input:hover{
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+}
+/* contact-form end */
+
+/* main-footer start */
+.main-footer{
+    padding: 26px 21px 26px 14px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.main-footer img{
+    width: 170px;
+    height: 36px;
+    -o-object-fit: contain;
+       object-fit: contain;
+}
+
+.main-footer ul li , .main-footer ul li span{
+    font-size: 15px;
+    line-height: 1.5;
+    font-family:'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+}
+
+.main-footer ul li span{
+    color: #e54991;
+}
+/* main-footer end */
+
+/* go top start */
+.goTop{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px 15px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    letter-spacing: 1.5px;
+    font-family:'Microsoft JhengHei', '微軟正黑體', 'Microsoft YaHei', sans-serif;
+    font-size: 12px;
+}
+
+.goTop:hover{
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+    background-color: rgba(0, 0, 0, 0.8);
+}
+/* go top end */
+
+/* lightbox js start */
+.lightbox{
+    position: fixed !important;
+    top: 50% !important;
+    margin-top: -250px !important;
+}
+
+.lb-data .lb-caption{
+    font-size: 22px !important;
+}
+
+.lb-image{
+    width: 500px !important;
+    height:500px !important
+}
+/* lightbox js end */
